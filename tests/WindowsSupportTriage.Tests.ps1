@@ -11,7 +11,7 @@ Describe 'Evidence interpretation' {
         $snapshot = Read-Fixture 'healthy'
         $snapshot.CollectedAtUtc = [DateTime]::new(2026, 11, 4, 12, 0, 0, [DateTimeKind]::Utc)
         $snapshot.Checks.OperatingSystem.Data.LastBootUtc = [DateTime]::new(2026, 11, 3, 12, 0, 0, [DateTimeKind]::Utc)
-        (Get-EndpointFinding $snapshot | Where-Object Check -EQ 'OperatingSystem').Evidence | Should -Match '1 days'
+        (Get-EndpointFinding $snapshot | Where-Object Check -EQ 'OperatingSystem').Evidence | Should -Match 'Days since last boot: 1\.'
     }
     It 'flags a stopped spooler in a printing case' {
         $findings = @(Get-EndpointFinding (Read-Fixture 'printing'))

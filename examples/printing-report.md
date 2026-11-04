@@ -5,7 +5,7 @@ Source: Demo. Collected: 2026-11-04T12:00:00.0000000+00:00. Symptom: Printing.
 Fictional example. No device was inspected or repaired.
 
 ## OperatingSystem: Info
-Windows version 10.0.26100. Last boot was 1 days before collection.
+Windows version 10.0.26100. Days since last boot: 1.
 Next check: Confirm the affected application and recent changes. Uptime alone does not identify the fault.
 
 ## SystemDisk: Info

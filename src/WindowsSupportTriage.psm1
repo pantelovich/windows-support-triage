@@ -120,7 +120,7 @@ function Get-EndpointFinding {
                 $boot = [DateTimeOffset]$check.Data.LastBootUtc
                 $collected = [DateTimeOffset]$Snapshot.CollectedAtUtc
                 $days = [math]::Round(($collected - $boot).TotalDays, 1)
-                $evidence = "Windows version $($check.Data.Version). Last boot was $days days before collection."
+                $evidence = "Windows version $($check.Data.Version). Days since last boot: $days."
                 $next = 'Confirm the affected application and recent changes. Uptime alone does not identify the fault.'
             }
             'SystemDisk' {
