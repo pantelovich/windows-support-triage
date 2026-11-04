@@ -1,0 +1,42 @@
+{
+  "SchemaVersion": 1,
+  "Source": "Demo",
+  "CollectedAtUtc": "2026-11-04T12:00:00Z",
+  "Symptom": "General",
+  "Checks": {
+    "OperatingSystem": {
+      "Status": "Collected",
+      "Data": {
+        "Caption": "Microsoft Windows 11 Pro",
+        "Version": "10.0.26100",
+        "LastBootUtc": "2026-11-03T12:00:00Z"
+      },
+      "Error": null
+    },
+    "SystemDisk": {
+      "Status": "Unavailable",
+      "Data": null,
+      "Error": "UnauthorizedAccessException"
+    },
+    "RestartIndicators": {
+      "Status": "Unavailable",
+      "Data": null,
+      "Error": "UnauthorizedAccessException"
+    },
+    "PrintSpooler": {
+      "Status": "NotRequested",
+      "Data": null,
+      "Error": null
+    },
+    "SystemEvents": {
+      "Status": "Unavailable",
+      "Data": null,
+      "Error": "UnauthorizedAccessException"
+    },
+    "ApplicationEvents": {
+      "Status": "Unavailable",
+      "Data": null,
+      "Error": "UnauthorizedAccessException"
+    }
+  }
+}

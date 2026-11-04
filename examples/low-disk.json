@@ -1,0 +1,57 @@
+{
+  "SchemaVersion": 1,
+  "Source": "Demo",
+  "CollectedAtUtc": "2026-11-04T12:00:00Z",
+  "Symptom": "Performance",
+  "Checks": {
+    "OperatingSystem": {
+      "Status": "Collected",
+      "Data": {
+        "Caption": "Microsoft Windows 11 Pro",
+        "Version": "10.0.26100",
+        "LastBootUtc": "2026-11-03T12:00:00Z"
+      },
+      "Error": null
+    },
+    "SystemDisk": {
+      "Status": "Collected",
+      "Data": {
+        "SizeBytes": 274877906944,
+        "FreeBytes": 2147483648
+      },
+      "Error": null
+    },
+    "RestartIndicators": {
+      "Status": "Collected",
+      "Data": {
+        "Indicators": [
+          "WindowsUpdate"
+        ]
+      },
+      "Error": null
+    },
+    "PrintSpooler": {
+      "Status": "NotRequested",
+      "Data": null,
+      "Error": null
+    },
+    "SystemEvents": {
+      "Status": "Collected",
+      "Data": {
+        "WindowHours": 24,
+        "Limit": 20,
+        "Events": []
+      },
+      "Error": null
+    },
+    "ApplicationEvents": {
+      "Status": "Collected",
+      "Data": {
+        "WindowHours": 24,
+        "Limit": 20,
+        "Events": []
+      },
+      "Error": null
+    }
+  }
+}

@@ -6,5 +6,7 @@ Initial scope: operating system details, system disk space, printing service sta
 restart indicators and recent error metadata. Produce JSON and Markdown reports.
 Offline examples must work on macOS without a Windows VM or a cloud subscription.
 The live collector requires Windows. It does not diagnose every support issue.
-Initial state: scaffold created. No implementation or Windows validation yet.
+Current state: collector, rules, reports, fictional cases and CI implemented.
+macOS checks pass. Windows live collection and GitHub publication pending.
+Use docs/validation.md for the current test boundary.
 
