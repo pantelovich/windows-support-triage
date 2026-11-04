@@ -1,0 +1,8 @@
+reports/
+TestResults.xml
+coverage.xml
+*.tmp
+.DS_Store
+.ruflo/
+.claude-flow/
+.swarm/
